@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="Rhetorix — Where voices shape ideas. Discover debate formats, competition opportunities, and Clash of Intellects.">
+<title>Rhetorix | Where Voices Shape Ideas</title>
+<style>
+:root{--green:#142d22;--green2:#1d4231;--gold:#d8b46a;--cream:#f7f4ed;--ink:#1d241f;--muted:#68736b;--white:#fff;--line:rgba(20,45,34,.13);--shadow:0 22px 70px rgba(20,45,34,.12)}
+*{box-sizing:border-box}html{scroll-behavior:smooth;scroll-padding-top:86px}body{margin:0;font-family:Inter,ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;background:var(--cream);color:var(--ink)}a{color:inherit;text-decoration:none}button,input,select,textarea{font:inherit}button,a{ -webkit-tap-highlight-color:transparent}.wrap{width:min(1160px,calc(100% - 40px));margin:auto}.topbar{position:sticky;top:0;z-index:20;background:rgba(247,244,237,.92);backdrop-filter:blur(18px);border-bottom:1px solid var(--line)}.nav{height:76px;display:flex;align-items:center;justify-content:space-between;gap:22px}.brand{display:flex;align-items:center;gap:11px;font-weight:900;letter-spacing:2px;color:var(--green);font-size:1.15rem}.brand-mark{width:38px;height:38px;border:1px solid var(--gold);border-radius:50%;display:grid;place-items:center;color:var(--gold);font-size:20px}.navlinks{display:flex;align-items:center;gap:27px;font-size:.91rem;color:#39463d}.navlinks a:hover{color:#98702a}.btn{display:inline-flex;justify-content:center;align-items:center;gap:9px;border:1px solid transparent;border-radius:999px;padding:13px 20px;font-weight:750;cursor:pointer;transition:.2s ease}.btn:hover{transform:translateY(-2px)}.btn-dark{background:var(--green);color:white}.btn-dark:hover{background:var(--green2)}.btn-gold{background:var(--gold);color:var(--green)}.btn-outline{border-color:rgba(255,255,255,.4);color:white;background:transparent}.menu-btn{display:none;border:1px solid var(--line);border-radius:12px;background:transparent;padding:9px 12px;color:var(--green);font-size:1.2rem}.hero{background:var(--green);color:white;position:relative;overflow:hidden;padding:94px 0 86px}.hero:before,.hero:after{content:"";position:absolute;border:1px solid rgba(216,180,106,.24);border-radius:50%;pointer-events:none}.hero:before{width:520px;height:520px;right:-120px;top:-200px}.hero:after{width:360px;height:360px;right:-40px;top:-120px}.hero-grid{display:grid;grid-template-columns:1.15fr .85fr;align-items:center;gap:55px;position:relative;z-index:1}.eyebrow{display:inline-flex;align-items:center;gap:8px;text-transform:uppercase;letter-spacing:2px;font-size:.73rem;font-weight:850;color:var(--gold)}.dot{width:7px;height:7px;border-radius:50%;background:var(--gold);display:inline-block}.hero h1{font-size:clamp(3rem,7vw,5.7rem);line-height:.99;letter-spacing:-.065em;margin:22px 0}.hero h1 em{font-family:Georgia,serif;color:var(--gold);font-weight:500}.hero p{font-size:1.08rem;line-height:1.8;color:#d4ddd5;max-width:590px}.hero-actions{display:flex;gap:12px;flex-wrap:wrap;margin-top:30px}.hero-note{margin-top:30px;font-size:.85rem;color:#c0cfc3}.hero-art{min-height:370px;display:grid;place-items:center;position:relative}.seal{width:min(340px,80vw);aspect-ratio:1;border:1px solid rgba(216,180,106,.65);border-radius:50%;display:grid;place-items:center;position:relative;box-shadow:0 0 0 16px rgba(216,180,106,.04),0 0 0 34px rgba(216,180,106,.035)}.seal:before{content:"";position:absolute;inset:22px;border:1px dashed rgba(216,180,106,.45);border-radius:50%}.seal-inner{text-align:center;padding:35px}.seal-icon{font-size:5.5rem;line-height:1;color:var(--gold)}.seal h2{font-size:1.7rem;letter-spacing:4px;margin:13px 0 6px}.seal p{font-family:Georgia,serif;font-style:italic;font-size:1rem;color:var(--gold);margin:0}.floating{position:absolute;background:#fff;color:var(--green);padding:13px 16px;border-radius:14px;box-shadow:var(--shadow);font-size:.85rem;font-weight:800}.float-one{top:25px;right:0}.float-two{bottom:20px;left:0}.section{padding:88px 0}.section-head{max-width:690px;margin-bottom:38px}.kicker{font-size:.75rem;letter-spacing:2px;text-transform:uppercase;color:#99752f;font-weight:850}.section h2{font-size:clamp(2.1rem,4.2vw,3.5rem);letter-spacing:-.05em;line-height:1.06;margin:12px 0 16px;color:var(--green)}.section-head p,.lead{color:var(--muted);line-height:1.8;font-size:1.02rem}.about-grid{display:grid;grid-template-columns:.9fr 1.1fr;gap:48px;align-items:start}.quote-card{background:#eae5d8;padding:34px;border-radius:24px;position:relative}.quote-card .quote-mark{font:5rem Georgia;color:#b28a3b;line-height:.8}.quote-card blockquote{font:italic 1.5rem/1.5 Georgia,serif;margin:18px 0;color:var(--green)}.quote-card small{color:var(--muted)}.values{display:grid;grid-template-columns:1fr 1fr;gap:16px;margin-top:25px}.value{padding:20px;background:white;border:1px solid var(--line);border-radius:17px}.value span{font-size:1.5rem}.value h3{margin:10px 0 7px;color:var(--green)}.value p{margin:0;color:var(--muted);font-size:.9rem;line-height:1.65}.dark-section{background:#eae7de}.cards{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}.card{background:white;padding:27px;border-radius:21px;border:1px solid var(--line);box-shadow:0 8px 28px rgba(20,45,34,.04);transition:.2s}.card:hover{transform:translateY(-5px);box-shadow:var(--shadow)}.card-icon{width:48px;height:48px;border-radius:15px;background:#f2ead8;display:grid;place-items:center;font-size:1.4rem}.card h3{color:var(--green);font-size:1.18rem;margin:19px 0 9px}.card p{color:var(--muted);line-height:1.7;font-size:.94rem}.tag{display:inline-block;font-size:.75rem;background:#eef2ed;color:#35543f;border-radius:99px;padding:6px 10px;font-weight:800;margin-top:8px}.steps{display:grid;grid-template-columns:repeat(4,1fr);gap:15px;counter-reset:step}.step{border-top:2px solid var(--gold);padding:23px 16px 10px 0;counter-increment:step}.step:before{content:"0" counter(step);font-size:.78rem;color:#a47b2d;font-weight:900;letter-spacing:1px}.step h3{color:var(--green);margin:13px 0 8px}.step p{color:var(--muted);font-size:.92rem;line-height:1.7}.event{background:var(--green);color:white;border-radius:30px;padding:clamp(28px,5vw,58px);display:grid;grid-template-columns:1.1fr .9fr;gap:35px;align-items:center;position:relative;overflow:hidden}.event:after{content:"✦";position:absolute;right:10px;top:-75px;font-size:20rem;color:rgba(216,180,106,.07);pointer-events:none}.event h2{color:white}.event p{color:#d4ddd5;line-height:1.8}.event-meta{display:grid;grid-template-columns:1fr 1fr;gap:12px;margin:25px 0}.meta{padding:16px;border:1px solid rgba(255,255,255,.16);border-radius:15px}.meta small{display:block;color:#b8c8bb;margin-bottom:6px}.meta strong{font-size:1rem}.event-side{background:rgba(255,255,255,.07);border:1px solid rgba(255,255,255,.13);border-radius:22px;padding:26px;position:relative;z-index:1}.event-side h3{margin-top:0;color:var(--gold)}.event-side ul{padding-left:20px;color:#e0e7e1;line-height:2}.countdown{display:flex;gap:10px;margin:20px 0}.timebox{flex:1;text-align:center;padding:12px 5px;border-radius:13px;background:rgba(255,255,255,.09)}.timebox strong{display:block;font-size:1.55rem;color:var(--gold)}.timebox span{font-size:.7rem;color:#c6d3c9;text-transform:uppercase;letter-spacing:1px}.faq-list{max-width:850px}.faq{border-bottom:1px solid var(--line)}.faq button{width:100%;border:0;background:transparent;padding:21px 0;display:flex;justify-content:space-between;gap:20px;text-align:left;font-weight:800;color:var(--green);cursor:pointer}.faq button span:last-child{font-size:1.3rem;color:#a47b2d}.faq-answer{display:none;color:var(--muted);line-height:1.8;padding:0 35px 20px 0}.faq.open .faq-answer{display:block}.contact-grid{display:grid;grid-template-columns:.8fr 1.2fr;gap:35px}.contact-info{background:#eae5d8;border-radius:22px;padding:28px}.contact-info h3{color:var(--green);font-size:1.5rem}.contact-info p{color:var(--muted);line-height:1.8}.contact-form{background:white;border:1px solid var(--line);border-radius:22px;padding:28px}.field{margin-bottom:16px}.field label{display:block;font-size:.85rem;font-weight:800;margin-bottom:7px;color:var(--green)}.field input,.field select,.field textarea{width:100%;padding:13px 14px;border:1px solid #d9dfd9;border-radius:12px;background:#fcfcfa;outline:none}.field input:focus,.field select:focus,.field textarea:focus{border-color:#a47b2d;box-shadow:0 0 0 3px rgba(216,180,106,.18)}.field textarea{min-height:110px;resize:vertical}.form-message{display:none;padding:13px;border-radius:12px;background:#edf5ed;color:#245b32;margin-top:13px;line-height:1.5;font-size:.9rem}.footer{background:#10251b;color:#d5dfd7;padding:38px 0}.footer-row{display:flex;justify-content:space-between;gap:25px;align-items:center;flex-wrap:wrap}.footer .brand{color:white}.footer p{font-size:.85rem;color:#aebfb2}.footer-links{display:flex;gap:18px;flex-wrap:wrap;font-size:.88rem}.footer-links a:hover{color:var(--gold)}.modal-backdrop{display:none;position:fixed;inset:0;background:rgba(7,20,13,.72);z-index:50;padding:20px;align-items:center;justify-content:center}.modal-backdrop.show{display:flex}.modal{width:min(550px,100%);max-height:90vh;overflow:auto;background:var(--cream);border-radius:24px;padding:28px;position:relative}.modal-close{position:absolute;right:18px;top:14px;border:0;background:transparent;font-size:1.8rem;cursor:pointer;color:var(--green)}.modal h2{color:var(--green);margin:5px 35px 10px 0}.modal p{color:var(--muted);line-height:1.7}.notice{font-size:.8rem;color:var(--muted);line-height:1.6}.backtop{position:fixed;right:18px;bottom:18px;width:44px;height:44px;border:0;border-radius:50%;background:var(--gold);color:var(--green);font-size:1.2rem;box-shadow:var(--shadow);cursor:pointer;display:none;z-index:15}.backtop.visible{display:block}
+@media(max-width:850px){.navlinks{display:none;position:absolute;top:76px;left:0;right:0;background:var(--cream);padding:20px;width:100%;border-bottom:1px solid var(--line);flex-direction:column;align-items:flex-start;gap:18px}.navlinks.show{display:flex}.menu-btn{display:block}.nav>.btn{display:none}.hero-grid,.about-grid,.event,.contact-grid{grid-template-columns:1fr}.hero{padding:70px 0}.hero-art{min-height:330px}.cards{grid-template-columns:1fr 1fr}.steps{grid-template-columns:1fr 1fr}.event-side{max-width:none}}@media(max-width:560px){.wrap{width:min(100% - 28px,1160px)}.hero h1{font-size:3.2rem}.hero-art{min-height:290px}.seal{width:270px}.seal-icon{font-size:4rem}.float-one{right:-2px}.float-two{left:-2px}.section{padding:65px 0}.cards,.values,.steps{grid-template-columns:1fr}.event-meta{grid-template-columns:1fr 1fr}.contact-form,.contact-info{padding:21px}.footer-row{align-items:flex-start;flex-direction:column}}
+
+.brand-logo{width:42px;height:42px;object-fit:contain;border-radius:50%;background:var(--cream);border:1px solid rgba(216,180,106,.65)}
+.brand span{display:inline-block}
+.hero-art .seal{width:min(390px,88vw);border:0;box-shadow:none;aspect-ratio:1;background:transparent}
+.hero-art .seal:before{display:none}
+.hero-logo{display:block;width:100%;height:auto;max-width:390px;object-fit:contain;filter:drop-shadow(0 16px 25px rgba(0,0,0,.18))}
+.footer .brand-logo{width:38px;height:38px}
+
+</style>
+</head>
+<body>
+<header class="topbar">
+  <div class="wrap nav">
+    <a class="brand" href="#home" aria-label="Rhetorix home"><img class="brand-logo" src="Logo.png" alt="Rhetorix logo"> <span>RHETORIX</span></a>
+    <nav class="navlinks" id="navlinks" aria-label="Main navigation">
+      <a href="#about">About</a><a href="#formats">Debate Formats</a><a href="#process">How It Works</a><a href="#event">Clash of Intellects</a><a href="#faq">FAQs</a><a href="#contact">Contact</a>
+    </nav>
+    <a class="btn btn-dark" href="#event">Explore Event ↗</a>
+    <button class="menu-btn" id="menuBtn" aria-label="Open navigation" aria-expanded="false">☰</button>
+  </div>
+</header>
+
+<main id="home">
+<section class="hero">
+  <div class="wrap hero-grid">
+    <div>
+      <span class="eyebrow"><span class="dot"></span> Ideas deserve a stage</span>
+      <h1>Where voices<br><em>shape ideas.</em></h1>
+      <p>Welcome to Rhetorix — a debate competition brand built for curious minds, thoughtful arguments, and confident voices. We turn differences of opinion into opportunities to learn, challenge, and grow.</p>
+      <div class="hero-actions"><a class="btn btn-gold" href="#event">Discover Clash of Intellects ↗</a><a class="btn btn-outline" href="#formats">Explore Debate Formats</a></div>
+      <div class="hero-note">Think critically. Speak clearly. Listen thoughtfully.</div>
+    </div>
+    <div class="hero-art" aria-label="Rhetorix brand emblem">
+      <div class="seal"><div class="seal-inner"><img class="hero-logo" src="Logo.png" alt="Rhetorix — Where Voices Shape Ideas"></div></div>
+      <div class="floating float-one">✦ Think beyond the obvious</div><div class="floating float-two">◈ Speak with purpose</div>
+    </div>
+  </div>
+</section>
+
+<section class="section" id="about">
+ <div class="wrap about-grid">
+  <div class="quote-card"><div class="quote-mark">“</div><blockquote>A good debate is not about defeating a person. It is about testing an idea.</blockquote><small>The Rhetorix philosophy</small></div>
+  <div><span class="kicker">Meet Rhetorix</span><h2>A platform for ideas, not just arguments.</h2><p class="lead">Rhetorix is an independent debating-competition brand that aims to create structured, engaging spaces where participants can express viewpoints, support claims with reasoning, and learn from perspectives different from their own.</p><p class="lead">Whether you're a first-time speaker or an experienced debater, our goal is to make debate more accessible, organised, and rewarding — one round at a time.</p>
+   <div class="values">
+    <div class="value"><span>🧠</span><h3>Critical thinking</h3><p>Question assumptions and build arguments with logic.</p></div>
+    <div class="value"><span>🎙️</span><h3>Confident speaking</h3><p>Communicate ideas with clarity, structure, and purpose.</p></div>
+    <div class="value"><span>🤝</span><h3>Respectful dialogue</h3><p>Challenge opinions without disrespecting people.</p></div>
+    <div class="value"><span>🌱</span><h3>Continuous growth</h3><p>Learn from feedback and improve with every round.</p></div>
+   </div>
+  </div>
+ </div>
+</section>
+
+<section class="section dark-section" id="formats">
+ <div class="wrap">
+  <div class="section-head"><span class="kicker">Choose your arena</span><h2>Different formats.<br>One powerful voice.</h2><p>Debate formats can be adapted to the event, experience level, and time available. These are formats Rhetorix can host in future editions.</p></div>
+  <div class="cards">
+   <article class="card"><div class="card-icon">⚖️</div><h3>One-on-One Debate</h3><p>Two speakers take opposing sides of a motion. Each must present claims, support them with reasoning, and respond to the other side.</p><span class="tag">Direct • Focused • Competitive</span></article>
+   <article class="card"><div class="card-icon">👥</div><h3>Team Debate</h3><p>Teams divide roles, build a shared case, rebut opposing arguments, and work together to deliver a coherent position.</p><span class="tag">Collaboration • Strategy</span></article>
+   <article class="card"><div class="card-icon">🔄</div><h3>Rebuttal Round</h3><p>Participants listen closely and respond to specific points made by opponents, rather than simply repeating prepared speeches.</p><span class="tag">Listening • Quick thinking</span></article>
+   <article class="card"><div class="card-icon">🎲</div><h3>Impromptu Debate</h3><p>Speakers receive a topic shortly before speaking. The challenge is to organise thoughts quickly and make a persuasive case.</p><span class="tag">Spontaneity • Clarity</span></article>
+   <article class="card"><div class="card-icon">🗣️</div><h3>Parliamentary Style</h3><p>Speakers argue for or against a motion using defined roles, timed speeches, points of rebuttal, and structured rounds.</p><span class="tag">Structure • Persuasion</span></article>
+   <article class="card"><div class="card-icon">🌍</div><h3>Open Discussion</h3><p>A moderated exchange of views on a relevant issue, designed to explore nuance and understand competing perspectives.</p><span class="tag">Perspective • Dialogue</span></article>
+  </div>
+ </div>
+</section>
+
+<section class="section" id="process">
+ <div class="wrap">
+  <div class="section-head"><span class="kicker">From registration to results</span><h2>How a Rhetorix debate works.</h2><p>Every event may have its own rules, but a clear structure helps every participant know what to expect.</p></div>
+  <div class="steps">
+   <div class="step"><h3>Register & get briefed</h3><p>Participants receive the event details, eligibility information, format, schedule, and code of conduct.</p></div>
+   <div class="step"><h3>Pairings & motion</h3><p>Speakers are paired or placed into teams. The topic and speaking positions are communicated according to the event rules.</p></div>
+   <div class="step"><h3>Present & rebut</h3><p>Each side delivers its arguments within time limits, responds to opposing points, and follows moderator instructions.</p></div>
+   <div class="step"><h3>Evaluation & results</h3><p>Judges assess reasoning, evidence, rebuttal, clarity, and delivery. Results and feedback are shared after the round.</p></div>
+  </div>
+ </div>
+</section>
+
+<section class="section" id="event">
+ <div class="wrap">
+  <div class="event">
+   <div>
+    <span class="eyebrow"><span class="dot"></span> Featured Rhetorix event</span>
+    <h2>Clash of<br><em style="font-family:Georgia,serif;color:var(--gold)">Intellects</em></h2>
+    <p>A battle of ideas where logic meets expression. Clash of Intellects is Rhetorix's debate competition experience, designed to challenge participants to think on their feet, defend their reasoning, and engage respectfully with an opposing viewpoint.</p>
+    <div class="event-meta">
+      <div class="meta"><small>Event date</small><strong>18 October 2026</strong></div>
+      <div class="meta"><small>Format</small><strong>Individual debates</strong></div>
+      <div class="meta"><small>Recognition</small><strong>Winner goodies*</strong></div>
+      <div class="meta"><small>Participants</small><strong>Participation certificate*</strong></div>
+    </div>
+    <p class="notice">*As planned by the organisers; final delivery is subject to the event's official communication. This website does not claim live registration availability.</p>
+    <div class="hero-actions"><button class="btn btn-gold" id="registerBtn">Ask about participation ↗</button><a class="btn btn-outline" href="#process">Understand the format</a></div>
+   </div>
+   <aside class="event-side">
+    <h3>Countdown to the event</h3><p>Get ready to make your point count.</p>
+    <div class="countdown" aria-label="Countdown">
+      <div class="timebox"><strong id="days">--</strong><span>Days</span></div><div class="timebox"><strong id="hours">--</strong><span>Hours</span></div><div class="timebox"><strong id="mins">--</strong><span>Minutes</span></div><div class="timebox"><strong id="secs">--</strong><span>Seconds</span></div>
+    </div>
+    <h3>What to bring to the table</h3>
+    <ul><li>A clear and reasoned position</li><li>Examples or evidence where relevant</li><li>Respect for opposing viewpoints</li><li>Confidence to speak and openness to learn</li></ul>
+   </aside>
+  </div>
+ </div>
+</section>
+
+<section class="section dark-section" id="judging">
+ <div class="wrap">
+  <div class="section-head"><span class="kicker">What makes a strong debater?</span><h2>Judged on substance and skill.</h2><p>A transparent rubric helps participants understand what matters beyond simply speaking loudly or quickly.</p></div>
+  <div class="cards">
+   <article class="card"><div class="card-icon">🧩</div><h3>Logic & argument</h3><p>Is the position clear, relevant, consistent, and supported by sound reasoning?</p></article>
+   <article class="card"><div class="card-icon">📚</div><h3>Evidence & examples</h3><p>Are examples relevant and claims explained responsibly rather than asserted without support?</p></article>
+   <article class="card"><div class="card-icon">↩️</div><h3>Rebuttal & listening</h3><p>Does the speaker directly engage with opposing arguments and answer the central points?</p></article>
+   <article class="card"><div class="card-icon">🎤</div><h3>Delivery & clarity</h3><p>Is the speech understandable, well-paced, organised, and appropriate for the audience?</p></article>
+   <article class="card"><div class="card-icon">⏱️</div><h3>Time & structure</h3><p>Does the speaker follow time limits, stay on topic, and organise the speech effectively?</p></article>
+   <article class="card"><div class="card-icon">🌿</div><h3>Conduct & respect</h3><p>Does the participant challenge ideas respectfully and follow the moderator's instructions?</p></article>
+  </div>
+ </div>
+</section>
+
+<section class="section" id="faq">
+ <div class="wrap">
+  <div class="section-head"><span class="kicker">Quick answers</span><h2>Frequently asked questions.</h2><p>Need something else? Send a message through the contact form below.</p></div>
+  <div class="faq-list">
+   <div class="faq"><button aria-expanded="false">What is Rhetorix? <span>＋</span></button><div class="faq-answer">Rhetorix is a debating-competition brand focused on critical thinking, public speaking, structured argument, and respectful discussion.</div></div>
+   <div class="faq"><button aria-expanded="false">What is Clash of Intellects? <span>＋</span></button><div class="faq-answer">It is Rhetorix's featured debate competition planned for 18 October 2026. Check the organiser's latest announcement for confirmed schedules and participation details.</div></div>
+   <div class="faq"><button aria-expanded="false">Do I need prior debating experience? <span>＋</span></button><div class="faq-answer">Not necessarily. The event's eligibility rules decide who can participate. Beginners can prepare by structuring a clear claim, supporting it with reasons, and practising respectful rebuttals.</div></div>
+   <div class="faq"><button aria-expanded="false">How are winners decided? <span>＋</span></button><div class="faq-answer">Judges can evaluate argument quality, reasoning, rebuttal, evidence, delivery, time management, and conduct according to the event's announced rubric.</div></div>
+   <div class="faq"><button aria-expanded="false">Can my organisation collaborate with Rhetorix? <span>＋</span></button><div class="faq-answer">Yes. Use the contact form to express interest in collaboration, hosting a debate, judging, or supporting a future event.</div></div>
+  </div>
+ </div>
+</section>
+
+<section class="section dark-section" id="contact">
+ <div class="wrap">
+  <div class="section-head"><span class="kicker">Start a conversation</span><h2>Let's make room for better ideas.</h2><p>Questions about Rhetorix, future events, or collaboration? Send a message below.</p></div>
+  <div class="contact-grid">
+   <div class="contact-info"><span class="kicker">Rhetorix community</span><h3>Good ideas grow when they are shared.</h3><p>We welcome thoughtful questions, collaboration proposals, and interest in future debating events.</p><p><strong>Brand:</strong> Rhetorix<br><strong>Tagline:</strong> Where voices shape ideas<br><strong>Featured event:</strong> Clash of Intellects</p><p><strong>Email:</strong> <a href="mailto:rhetorixunion@gmail.com">rhetorixunion@gmail.com</a><br><strong>Phone:</strong> <a href="tel:+918887102676">+91 8887102676</a></p><p class="notice">You can contact Rhetorix by email or phone using the details above.</p></div>
+   <form class="contact-form" id="contactForm">
+    <div class="field"><label for="name">Your name</label><input id="name" name="name" required placeholder="Enter your name"></div>
+    <div class="field"><label for="email">Email address</label><input id="email" name="email" type="email" required placeholder="you@example.com"></div>
+    <div class="field"><label for="reason">What would you like to discuss?</label><select id="reason" name="reason" required><option value="">Choose a topic</option><option>Clash of Intellects</option><option>Future debate participation</option><option>Collaboration / partnership</option><option>Judging / volunteering</option><option>General enquiry</option></select></div>
+    <div class="field"><label for="message">Message</label><textarea id="message" name="message" required placeholder="Write your message..."></textarea></div>
+    <button class="btn btn-dark" type="submit">Submit enquiry ↗</button>
+    <div class="form-message" id="formMessage" role="status"></div>
+    <p class="notice">Your enquiry will be saved to the Rhetorix Firebase database.</p>
+   </form>
+  </div>
+ </div>
+</section>
+</main>
+
+<footer class="footer"><div class="wrap footer-row">
+ <div><a class="brand" href="#home"><img class="brand-logo" src="Logo.png" alt="Rhetorix logo"> <span>RHETORIX</span></a><p>Where voices shape ideas. © <span id="year"></span> Rhetorix.</p></div>
+ <div class="footer-links"><a href="#about">About</a><a href="#formats">Formats</a><a href="#event">Clash of Intellects</a><a href="#contact">Contact</a><a href="#home">Back to top ↑</a></div>
+</div></footer>
+
+<button class="backtop" id="backtop" aria-label="Back to top">↑</button>
+<div class="modal-backdrop" id="registerModal" role="dialog" aria-modal="true" aria-labelledby="modalTitle">
+ <div class="modal">
+  <button class="modal-close" id="modalClose" aria-label="Close dialog">×</button>
+  <span class="kicker">Clash of Intellects</span><h2 id="modalTitle">Ask about participation</h2>
+  <p>Fill in your details to prepare an enquiry email. For actual registration status, dates, and instructions, refer to the latest message from the organisers.</p>
+  <form id="eventForm">
+   <div class="field"><label for="eventName">Your name</label><input id="eventName" name="Name" required placeholder="Full name"></div>
+   <div class="field"><label for="eventEmail">Email address</label><input id="eventEmail" name="Email" type="email" required placeholder="you@example.com"></div>
+   <div class="field"><label for="eventQuestion">Your question</label><textarea id="eventQuestion" name="Question" required placeholder="I'd like to know about..."></textarea></div>
+   <button class="btn btn-dark" type="submit">Submit enquiry ↗</button>
+   <div class="form-message" id="eventMessage" role="status"></div>
+   <p class="notice">Your enquiry will be saved to the Rhetorix Firebase database.</p>
+  </form>
+ </div>
+</div>
+
+<script>
+const $ = (s) => document.querySelector(s);
+const navlinks = $('#navlinks'), menuBtn = $('#menuBtn');
+menuBtn.addEventListener('click', () => {
+  const open = navlinks.classList.toggle('show');
+  menuBtn.setAttribute('aria-expanded', String(open));
+  menuBtn.textContent = open ? '×' : '☰';
+});
+navlinks.querySelectorAll('a').forEach(a => a.addEventListener('click', () => {
+  navlinks.classList.remove('show'); menuBtn.setAttribute('aria-expanded','false'); menuBtn.textContent='☰';
+}));
+document.querySelectorAll('.faq button').forEach(btn => btn.addEventListener('click', () => {
+  const parent = btn.closest('.faq'), isOpen = parent.classList.toggle('open');
+  btn.setAttribute('aria-expanded', String(isOpen)); btn.querySelector('span').textContent = isOpen ? '−' : '＋';
+}));
+const modal = $('#registerModal');
+$('#registerBtn').addEventListener('click', () => { modal.classList.add('show'); $('#eventName').focus(); });
+$('#modalClose').addEventListener('click', () => modal.classList.remove('show'));
+modal.addEventListener('click', e => { if(e.target === modal) modal.classList.remove('show'); });
+document.addEventListener('keydown', e => { if(e.key === 'Escape') modal.classList.remove('show'); });
+const backtop = $('#backtop');
+window.addEventListener('scroll', () => backtop.classList.toggle('visible', window.scrollY > 500));
+backtop.addEventListener('click', () => window.scrollTo({top:0,behavior:'smooth'}));
+$('#year').textContent = new Date().getFullYear();
+
+// Event date: 18 October 2026, local browser time. Change the time here if the organisers confirm one.
+const eventDate = new Date(2026, 9, 18, 10, 0, 0);
+function updateCountdown(){
+  let diff = eventDate.getTime() - Date.now();
+  if(diff <= 0){ $('#days').textContent='00'; $('#hours').textContent='00'; $('#mins').textContent='00'; $('#secs').textContent='00'; return; }
+  const d=Math.floor(diff/86400000); diff%=86400000;
+  const h=Math.floor(diff/3600000); diff%=3600000;
+  const m=Math.floor(diff/60000); const s=Math.floor((diff%60000)/1000);
+  $('#days').textContent=String(d).padStart(2,'0'); $('#hours').textContent=String(h).padStart(2,'0');
+  $('#mins').textContent=String(m).padStart(2,'0'); $('#secs').textContent=String(s).padStart(2,'0');
+}
+updateCountdown(); setInterval(updateCountdown,1000);
+
+// Firebase Realtime Database form submission
+// The Firebase Realtime Database rules must allow the intended writes under /enquiries.
+</script>
+<script type="module">
+import { initializeApp } from "https://www.gstatic.com/firebasejs/10.8.0/firebase-app.js";
+import { getDatabase, ref, push } from "https://www.gstatic.com/firebasejs/10.8.0/firebase-database.js";
+
+const firebaseConfig = {
+  apiKey: "AIzaSyAwySzwBxQ-ANFoUusw-ysXJtU2XxtL5BE",
+  authDomain: "rhetorix-union.firebaseapp.com",
+  databaseURL: "https://rhetorix-union-default-rtdb.firebaseio.com",
+  projectId: "rhetorix-union",
+  storageBucket: "rhetorix-union.firebasestorage.app",
+  messagingSenderId: "890929016512",
+  appId: "1:890929016512:web:dacf9e74d76f3c6f96c725",
+  measurementId: "G-P38N37B5J5"
+};
+
+const app = initializeApp(firebaseConfig);
+const db = getDatabase(app);
+
+function setupFirebaseForm(formId, messageId, formType) {
+  const form = document.getElementById(formId);
+  const messageEl = document.getElementById(messageId);
+  if (!form || !messageEl) return;
+
+  form.addEventListener('submit', async (e) => {
+    e.preventDefault();
+    if (!form.reportValidity()) return;
+
+    const submitButton = form.querySelector('button[type="submit"]');
+    const oldText = submitButton ? submitButton.textContent : '';
+    if (submitButton) {
+      submitButton.disabled = true;
+      submitButton.textContent = 'Saving...';
+    }
+    messageEl.style.display = 'block';
+    messageEl.textContent = 'Saving your enquiry...';
+
+    const formData = new FormData(form);
+    const payload = Object.fromEntries(formData.entries());
+    payload.formType = formType;
+    payload.timestamp = new Date().toISOString();
+
+    try {
+      await push(ref(db, 'enquiries'), payload);
+      messageEl.textContent = 'Thank you! Your enquiry has been saved successfully.';
+      form.reset();
+    } catch (err) {
+      console.error('Firebase form submission failed:', err);
+      messageEl.textContent = 'Could not save your enquiry. Please check your internet connection or contact Rhetorix by email.';
+    } finally {
+      if (submitButton) {
+        submitButton.disabled = false;
+        submitButton.textContent = oldText;
+      }
+    }
+  });
+}
+
+setupFirebaseForm('contactForm', 'formMessage', 'Contact Form');
+setupFirebaseForm('eventForm', 'eventMessage', 'Clash of Intellects Enquiry');
+</script>
+</body>
+</html>
